@@ -1,4 +1,4 @@
-ai-projects-hub
+## AI PROJECTS HUB
 
 Welcome to my AI and Machine Learning Projects repository 🚀.
 This repo is a collection of projects, experiments, and explorations in Artificial Intelligence (AI), Machine Learning (ML), and Data Science.

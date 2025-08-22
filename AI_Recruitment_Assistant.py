@@ -93,7 +93,7 @@ def generate_text_embedding(text_content: str, task: str = "RETRIEVAL_DOCUMENT")
 def generate_assessment_questions(job_description: str, num_questions: int = 5) -> str:
     """Generates assessment questions based on a job description."""
     try:
-        model = genai.GenerativeModel('gemini-1.0-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         prompt = f"""
         Based on the following job description, please generate {num_questions} relevant assessment questions for a candidate.
         --- Job Description ---

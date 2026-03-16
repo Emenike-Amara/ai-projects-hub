@@ -111,7 +111,7 @@ def score_assessment_answers(_job_description: str, _candidate_answers: str) -> 
     """Scores a candidate's CV or answers against a job description."""
     print(f"Scoring content against job description...") # Log to terminal
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-3-flash-preview')
         prompt = f"""
         You are an expert technical recruiter. Evaluate the candidate's CV or answers based on the provided job description.
         Provide your evaluation in a valid JSON format with the following keys: "overall_score" (an integer from 1-10), "summary" (a string), "strengths" (a string with bullet points), "weaknesses" (a string with bullet points), and "final_recommendation" (a string).
